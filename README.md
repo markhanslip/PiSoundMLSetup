@@ -14,7 +14,7 @@ sudo apt get install llvm-11
 LLVM_CONFIG=/usr/bin/llvm-config-11 
 ```
 
-### Install correct Python version 
+### Install additional Python tools 
 ```
 sudo apt install libblas-dev m4 cmake python3-dev python3-yaml python3-setuptools python3-wheel python3-pillow
 sudo pip3 install cython 
