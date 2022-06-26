@@ -45,7 +45,7 @@ python setup.py bdist_wheel
 python setup.py develop 
 ```
 ### Install Numba, Scipy, Scikit-Learn, Numpy, Librosa
-I think this is the correct order.. if you get an error then rest assured it's the correct combination of versions - just change the order until it works. 
+I thiiink this is the correct order... if you get an error then rest assured it is the correct combination of package versions - just change the order until it works. 
 You might also need to install as root. 
 ```
 LLVM_CONFIG=/usr/bin/llvm-config-11 pip3 install numba==0.54
