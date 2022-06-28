@@ -2,11 +2,11 @@
 
 This guide assumes you have a Raspberry Pi 4B (min 4GB RAM), PiSound audio hat and a free afternoon. 
 
-Requires 32-bit Raspberry Pi OS Lite (headless) - https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf-lite.img.xz 
+Requires 32-bit Raspberry Pi OS Lite (headless): https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf-lite.img.xz 
 
-PiSound software setup https://blokas.io/pisound/docs/software/#verifying-it-works
+PiSound software setup: https://blokas.io/pisound/docs/software/#verifying-it-works
 
-Once your OS and PiSound software are set up, the fun part: 
+Once your hardware, OS and PiSound software are set up, the fun part: 
 
 ### Install LLVM 11 
 ```
