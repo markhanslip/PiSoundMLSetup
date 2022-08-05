@@ -10,7 +10,7 @@ Once your hardware, OS and PiSound software are set up, the fun part:
 
 ### Install LLVM 11 
 ```
-sudo apt get install llvm-11 
+sudo apt-get install llvm-11 
 LLVM_CONFIG=/usr/bin/llvm-config-11 
 ```
 
@@ -33,8 +33,8 @@ export MAX_JOBS=4
 git clone https://github.com/pytorch/pytorch --recursive && cd pytorch
 git checkout v1.7.0
 git submodule update --init --recursive
-python setup.py bdist_wheel
-python setup.py develop 
+python3 setup.py bdist_wheel
+python3 setup.py develop 
 ```
 
 ```
