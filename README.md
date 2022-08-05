@@ -14,10 +14,9 @@ sudo apt-get install llvm-11
 LLVM_CONFIG=/usr/bin/llvm-config-11 
 ```
 
-### Install additional Python tools 
+### Install additional tools 
 ```
-sudo apt install libblas-dev m4 cmake python3-dev python3-yaml python3-setuptools python3-wheel python3-pillow
-sudo apt-get install python3-pip
+sudo apt install libblas-dev m4 cmake python3-dev python3-yaml python3-setuptools python3-wheel python3-pillow python3-pip
 sudo pip3 install cython 
 ```
 ### Compile Torch & Torchvision (takes a few hours)
