@@ -17,8 +17,8 @@ LLVM_CONFIG=/usr/bin/llvm-config-11
 ### Install additional Python tools 
 ```
 sudo apt install libblas-dev m4 cmake python3-dev python3-yaml python3-setuptools python3-wheel python3-pillow
-sudo apt-get install python-pip
-sudo pip install cython 
+sudo apt-get install python3-pip
+sudo pip3 install cython 
 ```
 ### Compile Torch & Torchvision (takes a few hours)
 
@@ -49,11 +49,11 @@ python setup.py develop
 I thiiink this is the correct order... if you get an error then rest assured it is the correct combination of package versions - just change the order until it works. 
 You might also need to install as root. 
 ```
-LLVM_CONFIG=/usr/bin/llvm-config-11 pip install numba==0.54
-pip install scipy==1.7.1
-pip install scikit-learn==1.0
-pip install numpy==1.20.3
-pip install librosa==0.8.0
+LLVM_CONFIG=/usr/bin/llvm-config-11 pip3 install numba==0.54
+pip3 install scipy==1.7.1
+pip3 install scikit-learn==1.0
+pip3 install numpy==1.20.3
+pip3 install librosa==0.8.0
 ```
 ### Create ALSA plugin for diverse sample rates
 Necessary because PiSound only supports 48000Hz out-of-the-box 
