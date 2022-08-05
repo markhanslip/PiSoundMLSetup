@@ -20,7 +20,7 @@ sudo apt install libblas-dev m4 cmake python3-dev python3-yaml python3-setuptool
 sudo pip3 install cython 
 ```
 ### Compile Torch & Torchvision (takes a few hours)
-PiSound is designed for 32-bit OSes, whereas officially-supported PyTorch and Torchvision are 64-bit-only. The following compiles community-provided 32-bit versions from scratch:
+
 ```
 export NO_CUDA=1
 export NO_DISTRIBUTED=1
