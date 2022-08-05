@@ -49,7 +49,7 @@ python setup.py develop
 I thiiink this is the correct order... if you get an error then rest assured it is the correct combination of package versions - just change the order until it works. 
 You might also need to install as root. 
 ```
-LLVM_CONFIG=/usr/bin/llvm-config-11 pip3 install numba==0.54
+LLVM_CONFIG=/usr/bin/llvm-config-11 pip install numba==0.54
 pip install scipy==1.7.1
 pip install scikit-learn==1.0
 pip install numpy==1.20.3
