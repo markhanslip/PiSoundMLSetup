@@ -12,7 +12,7 @@ Once your hardware, OS and PiSound software are set up, the fun part:
 ```
 sudo apt-get install llvm-11 
 LLVM_CONFIG=/usr/bin/llvm-config-11 
-sudo apt-get install libatlas-base-dev
+sudo apt-get install libatlas-base-dev --fix-missing
 ```
 
 ### Install additional tools 
