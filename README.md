@@ -12,12 +12,12 @@ Once your hardware, OS and PiSound software are set up, the fun part:
 ```
 sudo apt-get install llvm-11 
 LLVM_CONFIG=/usr/bin/llvm-config-11 
-sudo apt-get install libatlas-base-dev --fix-missing
 ```
 
 ### Install additional tools 
 ```
 sudo apt install libblas-dev m4 cmake python3-dev python3-yaml python3-setuptools python3-wheel python3-pillow python3-pip
+sudo apt-get install libatlas-base-dev --fix-missing
 sudo pip3 install cython 
 ```
 ### Compile Torch & Torchvision (takes a few hours)
