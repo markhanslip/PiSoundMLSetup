@@ -18,6 +18,7 @@ LLVM_CONFIG=/usr/bin/llvm-config-11
 ```
 sudo apt install libblas-dev m4 cmake python3-dev python3-yaml python3-setuptools python3-wheel python3-pillow python3-pip
 sudo apt-get install libatlas-base-dev --fix-missing
+sudo apt-get install libsndfile1-dev
 sudo pip3 install cython 
 ```
 ### Compile Torch & Torchvision (takes a few hours)
